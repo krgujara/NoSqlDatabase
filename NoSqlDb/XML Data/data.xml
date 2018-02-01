@@ -1,0 +1,87 @@
+<database>   <element>
+      <key>str0</key>
+      <name>str0</name>
+      <category>dummy on category</category>
+      <description>dummy description</description>
+      <timeDate>02/05/2017 11:51</timeDate>
+      <children>
+      </children>
+      <data>dummyon data</data>
+   </element>   <element>
+      <key>Convert</key>
+      <name>Convert</name>
+      <category>library</category>
+      <description>(de)serializes objects of type T (from)to strings</description>
+      <timeDate>01/20/2017 03:40</timeDate>
+      <children>
+      </children>
+      <data>Data Conversion</data>
+   </element>   <element>
+      <key>CppProperties</key>
+      <name>CppProperties</name>
+      <category>library</category>
+      <description>Defines read/write and read only properties</description>
+      <timeDate>01/21/2017 05:45</timeDate>
+      <children>
+      </children>
+      <data>Acts like getters and setters</data>
+   </element>   <element>
+      <key>TestExecutive</key>
+      <name>TestExecutive</name>
+      <category>new Text Executive Category</category>
+      <description>new Description</description>
+      <timeDate>02/02/2017 12:20</timeDate>
+      <children>
+         <child>NoSqlDb</child>
+      </children>
+      <data>Text data is updated</data>
+   </element>   <element>
+      <key>str1</key>
+      <name>str1</name>
+      <category>ummy on category</category>
+      <description>ummy description</description>
+      <timeDate>02/05/2017 11:51</timeDate>
+      <children>
+      </children>
+      <data>ummyon data</data>
+   </element>   <element>
+      <key>XMLDocument</key>
+      <name>XMLDocument</name>
+      <category>Container</category>
+      <description>Container of XML element nodes</description>
+      <timeDate>01/31/2017 12:00</timeDate>
+      <children>
+      </children>
+      <data>Container containg toXml and fromXml functions</data>
+   </element>   <element>
+      <key>NoSqlDb</key>
+      <name>NoSqlDb</name>
+      <category>Database</category>
+      <description>In - memory database operations using STL Container unordered map</description>
+      <timeDate>01/31/2017 12:00</timeDate>
+      <children>
+         <child>Convert</child>
+         <child>CppProperties</child>
+         <child>XMLDocument</child>
+      </children>
+      <data>Is templated on data part, to store any kind of data</data>
+   </element>   <element>
+      <key>ABCD</key>
+      <name>ABCD</name>
+      <category>library</category>
+      <description>(de)serializes objects of type T (from)to strings</description>
+      <timeDate>01/27/2017 12:00</timeDate>
+      <children>
+      </children>
+      <data>Data Conversion</data>
+   </element>   <element>
+      <key>str2</key>
+      <name>str2</name>
+      <category>mmy on category</category>
+      <description>mmy description</description>
+      <timeDate>02/05/2017 11:51</timeDate>
+      <children>
+      </children>
+      <data>mmyon data</data>
+   </element>
+</database>
