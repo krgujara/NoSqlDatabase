@@ -1,6 +1,8 @@
 # NoSqlDatabase
 
 A Key/Value NoSQL Database, developed in C++, Visual Studio.
+
+
 Purpose:
 
 There is currently a lot of technical interest in "Big Data". Extreme examples are: data
