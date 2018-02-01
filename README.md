@@ -25,7 +25,22 @@ Features of Database -
 
 3. Database supports addition and deletion of Key/Valye Pairs and also allows editing the values including addition and/or deletion of relationships, editing metadata, and replacing the existing value's instance with a new instance. Editing of Keys is forbidden.
 
+4. It has the feature to on-command persist the database contents in the XML file. The process is also reversible.  e.g., the database can be restored or augmented from an existing XML file as well as write its contents out to an XML file.
 
+5. It supports queries for:
+◦ The value of a specified key.
+◦ The children of a specified key.
+◦ The set of all keys matching a specified pattern which defaults to all keys.
+◦ All keys that contain a specified string in their item name
+◦ All keys that contain a specified string in their category name
+◦ All keys that contain a specified string in their template data section when that makes sense.
+◦ All keys that contain values written within a specified time-date interval. If only one end of the interval is provided  takes the present as the other end of the interval.
 
+6. Each query accepts a list of keys4 and returns a collection of keys from the list that match the query.
 
+7. Supports making the same kinds of queries, cited in 6th bullet, on the set of keys returned by an earlier query.
+
+8. Supports forming a union of the keys from two or more earlier queries.
+
+Used Regex Pattern Matching for the query types described above.
 
